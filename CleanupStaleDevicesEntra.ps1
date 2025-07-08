@@ -2,11 +2,11 @@
     .NOTES
     ===========================================================================
     Modified on:
-     Created on:
-	   Created by:   	Alexandros Kapellas
-	   Organization: 	
-     Filename:     	CleanupStaleDevicesEntra.ps1
-	===========================================================================
+    Created on:
+    Created by:   	Alexandros Kapellas
+    Organization: 	
+    Filename:     	CleanupStaleDevicesEntra.ps1
+    ===========================================================================
     ===========================================================================
      Requirements: 
      - Can be run on any machine
