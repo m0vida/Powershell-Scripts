@@ -5,7 +5,7 @@
     Created on:
     Created by:   	Alexandros Kapellas
     Organization: 	
-    Filename:     	CleanupStaleDevicesEntra.ps1
+    Filename:     	Entra_Cleanup_Stale_Devices.ps1
     ===========================================================================
     ===========================================================================
      Requirements: 
