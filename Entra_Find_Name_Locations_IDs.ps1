@@ -1,3 +1,20 @@
+<#
+    .NOTES
+    ===========================================================================
+    Modified on:
+    Created on:
+    Created by:   	Alexandros Kapellas
+    Organization: 	
+    Filename:     	Entra_Find_Name_Locations_IDs.ps1
+    ===========================================================================
+    ===========================================================================
+     Requirements: 
+     - Can be run on any machine
+    ===========================================================================
+    .DESCRIPTION
+    This scripts uses MS Graph.
+#>
+
 # --- App-only auth (client credentials) ---
 $tenantId     = "" # Your TenantID goes here
 $clientId     = "" # Your AppID goes here
@@ -34,3 +51,4 @@ $resp.value |
 
 # Get the ID for a specific name:
 ($resp.value | Where-Object displayName -eq "AllowedCountries").id
+
